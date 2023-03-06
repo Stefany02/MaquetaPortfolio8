@@ -35,3 +35,15 @@ body{
 section.about{
     margin-top: 20rem;
 }
+
+h1.parrafo{
+    font-weight:lighter;
+    font-size: 3em;
+    font-family:Impact;
+    color:aqua
+}
+
+h3.parrafo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(23, 248, 173);
+}
