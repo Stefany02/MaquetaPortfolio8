@@ -20,6 +20,11 @@ body::before{
     z-index: -1;
 }
 
+nav.navbar.navbar-expand-lg.bg-body-black.text-white.fixed-top{
+    background-position: center;
+    background-attachment: fixed;
+}
+
   
 .list-group{
   padding-left:10px;
