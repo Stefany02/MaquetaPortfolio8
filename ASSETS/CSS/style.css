@@ -1,12 +1,26 @@
+
 body{
-    background-image:url(../IMG/fondo\ 1.jpg);
+    margin: 0;
+    background-image: url(../IMG/op1.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.navbar.navbar-expand-lg.bg-body-tertiary{
-    background-color:rgb(33, 45, 82) !important;
+body::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(14, 66, 188),black);
+    opacity:0.8;
+    z-index: -1;
 }
 
+  
 .list-group{
   padding-left:10px;
   padding-right:10px;
