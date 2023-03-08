@@ -86,7 +86,7 @@ h3.parrafo{
 }
 
 
-h1.parrafo{
+h1.Curriculum{
     font-weight:lighter;
     font-size: 3rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -108,5 +108,6 @@ section#Experiencia{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
+
