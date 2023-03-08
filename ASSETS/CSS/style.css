@@ -15,7 +15,7 @@ body::before{
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(rgb(14, 66, 188),black);
+    background: linear-gradient(rgb(6, 40, 107),black);
     opacity:0.8;
     z-index: -1;
 }
@@ -24,6 +24,7 @@ nav.navbar.navbar-expand-lg.bg-body-black.text-white.fixed-top{
     background-position: center;
     background-attachment: fixed;
 }
+
 
   
 .list-group{
@@ -51,18 +52,61 @@ nav.navbar.navbar-expand-lg.bg-body-black.text-white.fixed-top{
     color:rgb(104, 252, 5);
    }
 
-section.about{
-    margin-top: 20rem;
+
+section#Sobre-Mi{
+    max-width: 1100px;
+    height: 90vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1.parrafo{
+
+h1.Bienvenida{
     font-weight:lighter;
-    font-size: 3em;
-    font-family:Impact;
-    color:aqua
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aqua;
+    -webkit-text-stroke: 1px hsl(0, 0%, 0%);
+    max-width: 1100px;
+    margin: 100px;;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(12, 19, 54);
 }
 
 h3.parrafo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(23, 248, 173);
+    color:rgb(241, 243, 243);
+    font-size: 2rem;
+    -webkit-text-stroke: 1px rgb(9, 11, 12);
+    margin: 3px;
+}
+
+
+h1.parrafo{
+    font-weight:lighter;
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aqua;
+    -webkit-text-stroke: 1px hsl(0, 0%, 0%);
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 19, 54);
+}
+
+section#Experiencia{
+    max-width: 1100px;
+    height:100vh;
+    margin: auto;
+    columns: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
