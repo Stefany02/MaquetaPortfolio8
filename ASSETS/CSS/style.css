@@ -3,14 +3,29 @@
 .list-group{
   padding-left:10px;
   padding-right:10px;
-  color:#fff;
-  line-height: .03125em
-   }
-  
+  line-height: .03125em;
+  }
+
+  ul.list-group.list-group-horizontal{
+    color:whitesmoke;
+  }
+
+:root, [data-bs-theme=dark] { 
+--bs-body-color: whitesmoke;
+--bs-body-color-rgb:whitesmoke;
+--bs-body-bg: whitesmoke;
+--bs-body-bg-rgb: whitesmoke;
+--bs-tertiary-bg: whitesmoke;
+--bs-link-hover-color-rgb: whitesmoke;
+--bs-link-color-rgb: whitesmoke;
+  };
+
 i.fa-brands.fa-linkedin.fa-2xl:hover{
     color:aqua;
    }
-i.fa-brands.fa-square-instagram.fa-2xl:hover{
+
+   
+i.fa-brands.fa-linkedin.fa-2xl:hover{
     color:deeppink;
    }
 i.fa-brands.fa-square-facebook.fa-2xl:hover{
