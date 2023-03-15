@@ -1,4 +1,11 @@
 
+.list-group{
+    --bs-listgrup-bg;
+    color:trasparent;
+} 
+
+
+
 
 .list-group{
   padding-left:10px;
@@ -10,36 +17,47 @@
     color:whitesmoke;
   }
 
-:root, [data-bs-theme=dark] { 
---bs-body-color: whitesmoke;
---bs-body-color-rgb:whitesmoke;
---bs-body-bg: whitesmoke;
---bs-body-bg-rgb: whitesmoke;
---bs-tertiary-bg: whitesmoke;
---bs-link-hover-color-rgb: whitesmoke;
---bs-link-color-rgb: whitesmoke;
-  };
+nav.class.navbar.bg-dark.data-bs-theme.dark{
+    background-image: linear-gradient(rgba(6, 5, 10, 0.889),
+    rgba(16, 15, 38, 0.618));
+}
 
-i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:aqua;
-   }
+
+i.fa-brands.fa-linkedin.fa-2xl.text-white:hover {
+    --bs-text-opacity: 1;
+    color: #00FFFF !important;
+}
+
+i.fa-brands.fa-square-instagram.fa-2xl:hover{
+    --bs-text-opacity: 1;
+    color:#ff1493 !important;
+}
+
+i.fa-brands.fa-square-facebook.fa-2xl.text-white:hover{
+    --bs-text-opacity: 1; 
+    color:#0000FF !important;
+}
+
+i.fa-solid.fa-envelope.fa-2xl.text-white:hover{
+    --bs-text-opacity: 1; 
+    color: #ffff00 !important;
+}
+
+i.fa-brands.fa-github.fa-2xl.text-white:hover{
+    --bs-text-opacity: 1; 
+    color:#f31515 !important;
+}
+
+i.fa-solid.fa-user-lock.fa-2xl.text-white:hover{
+    --bs-text-opacity: 1; 
+    color:#68fc05 !important;
+}
 
    
-i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:deeppink;
-   }
-i.fa-brands.fa-square-facebook.fa-2xl:hover{
-    color:blue;
-   }
-i.fa-solid.fa-envelope.fa-2xl:hover{
-    color:rgb(248, 245, 44);
-   }
-i.fa-brands.fa-github.fa-2xl:hover{
-    color:maroon
-   }
-i.fa-solid.fa-user-lock.fa-2xl:hover{
-    color:rgb(104, 252, 5);
-   }
+
+
+
+
 
 section.banner{
     background-image: linear-gradient(rgba(6, 5, 10, 0.889),
