@@ -1,25 +1,32 @@
-.list-group{
-  padding-left:10px;
-  padding-right:10px;
-  line-height: .03125em;
-  }
+.btn-primary{
+    --bs-btn-hover-bg:0;
+    --bs-btn-hover-border-color:0;
+    --bs-btn-active-bg:0;
+    --bs-btn-active-border-color:0;
+    --bs-btn-hover-color:0;
+    --bs-btn-color:0;
+    --bs-border-width:0;
+}
+.btn-group{
+    display:block
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: transparent;
+}
 
-  ul.list-group.list-group-horizontal{
-    color:whitesmoke;
-  }
 
 nav.class.navbar.bg-dark.data-bs-theme.dark{
     background-image: linear-gradient(rgba(6, 5, 10, 0.889),
     rgba(16, 15, 38, 0.618));
 }
 
-
 i.fa-brands.fa-linkedin.fa-2xl.text-white:hover {
     --bs-text-opacity: 1;
     color: #00FFFF !important;
 }
 
-i.fa-brands.fa-square-instagram.fa-2xl:hover{
+i.fa-brands.fa-square-instagram.fa-2xl.text-white:hover{
     --bs-text-opacity: 1;
     color:#ff1493 !important;
 }
@@ -43,11 +50,6 @@ i.fa-solid.fa-user-lock.fa-2xl.text-white:hover{
     --bs-text-opacity: 1; 
     color:#68fc05 !important;
 }
-
-   
-
-
-
 
 
 section.banner{
@@ -163,4 +165,57 @@ h2.educacion{
     justify-content: center;
     align-content: center;
     margin-top: 4rem;
+}
+
+.form-control-sm{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.mb-3{
+    text-align:center;
+}
+
+.btn{
+    text-align:center;
+    --bs-btn-padding-y:0rem;
+    --bs-btn-bg:#dafff1;
+    --bs-btn-border-color:#25cff2;
+    --bs-btn-hover-bg:transparent;
+}
+
+h4.datos{
+    text-align: center;
+}
+
+.col-1{
+    text-align: center;
+}
+
+a.btn.btn-outline-dark{
+    color: white;
+    --bs-btn-active-border-color: #ffff00;
+    --bs-btn-bg:transparent;
+    --bs-btn-border-color:transparent;
+    --bs-btn-hover-border-color:transparent;
+    --bs-btn-active-border-color:transparent;
+}
+
+i.fa-regular.fa-circle-left.fa-2xl.text-white:hover{
+    --bs-text-opacity: 1;
+    color: #3eff04 !important;
+}
+
+button.btn.btn-primary:hover{
+    color: #0df54b;
+    --bs-btn-active-bg:#0d24f5;
+}
+
+i.fa-solid.fa-pencil.fa-2xl.text-white{
+    position:absolute;
+    z-index: 1;
+    height: auto;
+    width: 10rem;
+    margin-left: 60rem;
+    margin-top: 15rem;
 }
