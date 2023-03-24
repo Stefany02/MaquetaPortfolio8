@@ -78,7 +78,7 @@ section#Sobre-Mi{
     display: flex;
     align-items:center;
     justify-content: center;
-    background-color: rgb(12, 19, 54);
+    background-color: #0c1336;
     height: 100vh;
     position:relative;
     background-size: cover;
@@ -172,18 +172,6 @@ h2.educacion{
     margin-left: 5rem;
 }
 
-.mb-3{
-    text-align:center;
-}
-
-.btn{
-    text-align:center;
-    --bs-btn-padding-y:0rem;
-    --bs-btn-bg:#dafff1;
-    --bs-btn-border-color:#25cff2;
-    --bs-btn-hover-bg:transparent;
-}
-
 h4.datos{
     text-align: center;
 }
@@ -206,16 +194,17 @@ i.fa-regular.fa-circle-left.fa-2xl.text-white:hover{
     color: #3eff04 !important;
 }
 
-button.btn.btn-primary:hover{
-    color: #0df54b;
-    --bs-btn-active-bg:#0d24f5;
+i.fa-solid.fa-pencil.fa-2xl{
+        color:#0fdcf7;
+       margin-left: 60rem;
+       margin-end:30rem;
+    }
+            
+:root, [data-bs-theme="light"] {
+     --bs-body-bg:#000000;
+    }
+
 }
 
-i.fa-solid.fa-pencil.fa-2xl.text-white{
-    position:absolute;
-    z-index: 1;
-    height: auto;
-    width: 10rem;
-    margin-left: 60rem;
-    margin-top: 15rem;
-}
+
+
