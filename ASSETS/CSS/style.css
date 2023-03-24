@@ -197,14 +197,14 @@ i.fa-regular.fa-circle-left.fa-2xl.text-white:hover{
 i.fa-solid.fa-pencil.fa-2xl{
         color:#0fdcf7;
        margin-left: 60rem;
-       margin-end:30rem;
+       margin-block-end:30rem;
     }
             
 :root, [data-bs-theme="light"] {
      --bs-body-bg:#000000;
     }
 
-}
+
 
 
 

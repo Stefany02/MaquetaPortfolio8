@@ -5,3 +5,7 @@ Reinicialice con git init
 Git commit -m ---> me salio mensaje para agregar todos los archivos
 Git add . (enter) ---> agregue todos los archivos que tenia 
 git push -u origin ---> me logro publicar todo en GitHub
+
+# Empezando backend
+## Para mudar todo a angular 
+
