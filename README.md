@@ -9,4 +9,4 @@ git push -u origin ---> me logro publicar todo en GitHub
 # Empezando backend
 ## Para mudar todo a angular 
 ### volviendo a empezar
-
+buscando errores
